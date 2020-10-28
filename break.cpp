@@ -8,10 +8,12 @@ int main(){
 		printf("\n Ingresa el numero entero \n");
 		scanf("%d",&n);
 		
-		if(n<0)
+		if(n<0){
 			break;
-	
-		
+		}	
+		else{
+			printf("%id -> %d\n",i,n);
+		}
 	}
 	
 	
